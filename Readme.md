@@ -43,17 +43,17 @@ Proyecto realizado con fines educativos.
 
 # Checklist de diagnóstico:
 
-¿Cuántos <div> hay vs etiquetas semánticas?
-- Etiquetas: <header>, <nav>, <main>, <section> (3) y un <footer<>. 6 <div> en total.
+1. ¿Cuántos div hay vs etiquetas semánticas?
+- Etiquetas: header, nav, main, section (3) y un footer. 6 div en total.
 
-¿Hay más de un <h1>? 
+2. ¿Hay más de un h1? 
 - Solo 1.
 
-¿Las imágenes tienen alt descriptivo?
+3. ¿Las imágenes tienen alt descriptivo?
 - Si 
 
-¿Hay <button> dentro de <a>?
+4. ¿Hay button dentro de a?
 - No hay botones dentro de enlaces.
 
-¿Falta <header>, <main>, <footer>? 
+5. ¿Falta header, main, footer? 
 - Si se utilzan esas estiqueta semánticas.
