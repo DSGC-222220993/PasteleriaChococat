@@ -1,0 +1,59 @@
+# Descripción de la pagina web:
+
+Página web sencilla de una pastelería ficticia llamada Pastelería Chococat. Esta fue desarrollada como parte de una práctica para la materia de Front-End utilizando tecnologías básicas del desarrollo web.
+
+La pagina muestra la estructura de una tienda en linea de pasteles, incluye:
+
+ - encabezado con logo y menú de navegación.
+ - sección de bienvenida.
+ - productos con descripción e imagenes.
+ - sección de contacto.
+ - footer de licencia.
+
+---
+
+# Tecnologías utilizdas
+
+- HTML5  
+- CSS3  
+- JavaScript  
+
+Nada de frameworks ni librerias externas.
+
+---
+
+# Diseño
+
+Diseño responcivo que se adapta automáticamente a distintos tamaños de pantalla utilizando media queries en css.
+
+---
+
+# Ejecución
+
+1. Descargar o clonar repositorio.
+2. Abrir archivo index en cualquier navegador.
+
+---
+
+# Licencia
+
+Proyecto realizado con fines educativos.
+
+---
+
+# Checklist de diagnóstico:
+
+¿Cuántos <div> hay vs etiquetas semánticas?
+- Etiquetas: <header>, <nav>, <main>, <section> (3) y un <footer<>. 6 <div> en total.
+
+¿Hay más de un <h1>? 
+- Solo 1.
+
+¿Las imágenes tienen alt descriptivo?
+- Si 
+
+¿Hay <button> dentro de <a>?
+- No hay botones dentro de enlaces.
+
+¿Falta <header>, <main>, <footer>? 
+- Si se utilzan esas estiqueta semánticas.
