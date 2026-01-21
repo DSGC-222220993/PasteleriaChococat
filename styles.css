@@ -143,3 +143,125 @@ body {
         flex: 30%;
     }
 }
+
+.btn-agregar {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    color: #333;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.btn-agregar:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.btn-agregar img {
+    width: 30px;
+}
+
+.btn-carrito {
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    position: relative;
+    color: #333;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.btn-carrito:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.contador-carrito {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #d6336c;
+    color: white;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.carrito-section {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+.oculto {
+    display: none;
+}
+.carrito-section h3 {
+    color:#d6336c;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.item-carrito {
+    margin-bottom: 0.8rem;
+    background-color: #f9f9f9;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border-left: 4px solid #d6336c;
+}
+
+.item-carrito p {
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+}
+
+.btn-eliminar {
+    background-color: #d6336c;
+    border: none;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.btn-eliminar:hover {
+    background-color: #b91d52;
+}
+
+.total-carrito {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color:#d6336c;
+}
+
+.btn-cerrar{
+    padding:0.7rem 1rem;
+    background-color:#ffe4ec;
+    border:2px solid #d6336c;
+    color:#d6336c;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:1rem;
+    width:100%;
+    font-weight:600;
+    
+}

@@ -22,6 +22,12 @@
             <a href="#menu">Productos</a>
             <a href="#contact">Contacto</a>
         </nav>
+
+        <button id="btn-carrito" class="btn-carrito">
+            <img src="img/ic_carrito.png" alt="Carrito de Compras">
+            <span id="contador-carrito" class="contador-carrito">0</span>
+        </button>
+
     </header>
 
     <main>
@@ -39,17 +45,29 @@
                     <img src="img/chococake.jpg" alt="Chocolate Cake">
                     <h3>Pastel de Chocolate</h3>
                     <p>Un clásico irresistible para los amantes del chocolate.</p>
+                    <p class="price">$400</p>
+                    <button class="btn-agregar" data-nombre="Pastel de Chocolate" data-precio="400">
+                        <img src="img/ic_agregarCarrito.png" alt="Agregar al carrito">
+                    </button>
                 </div>
                 
                 <div class="product-item">
                     <img src="img/berrycake.jpg" alt="Strawberry Cake">
                     <h3>Pastel de Fresa</h3>
                     <p>Fresco y dulce, perfecto para cualquier ocasión.</p>
+                    <p class="price">$300</p>
+                    <button class="btn-agregar" data-nombre="Pastel de Fresa" data-precio="300">
+                        <img src="img/ic_agregarCarrito.png" alt="Agregar al carrito">
+                    </button>
                 </div>
                 <div class="product-item">
                     <img src="img/vanillacake.jpg" alt="Vanilla Cake">
                     <h3>Pastel de Vainilla</h3>
                     <p>Suave y esponjoso, un favorito entre todos.</p>
+                    <p class="price">$200</p>
+                    <button class="btn-agregar" data-nombre="Pastel de Vainilla" data-precio="200">
+                        <img src="img/ic_agregarCarrito.png" alt="Agregar al carrito">
+                    </button>
                 </div>
             </div>
         </section>
@@ -67,6 +85,13 @@
                     <span>@chococat_pasteleria</span>
                 </a>
             </div>
+        </section>
+
+        <section id="carrito" class="carrito-section oculto">
+            <h3>Mi carrito de Compras</h3>
+            <div id="lista-carrito"></div> 
+            <p class="total-carrito">Total: $<span id="total-carrito">0</span></p>
+            <button id="cerrar-carrito" class="btn-cerrar">Cerrar Carrito</button>
         </section>
     </main>
 
