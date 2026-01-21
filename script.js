@@ -56,7 +56,9 @@ function actualizarCarrito() {
         listaCarrito.appendChild(divItem);
     }
     document.getElementById("total-carrito").textContent=total;
-    document.getElementById("contador-carrito").textContent=carrito.length;
+    
+    let cantidadTotal = carrito.reduce((sum, item) => sum + item.cantidad, 0);
+    document.getElementById("contador-carrito").textContent=cantidadTotal;
 }
 
 function eliminarProducto(indice) {
